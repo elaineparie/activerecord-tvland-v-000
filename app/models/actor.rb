@@ -5,9 +5,10 @@ class Actor < ActiveRecord::Base
   def full_name
     first = self.first_name
     last = self.last_name
-    "#{first} #{last}" 
+    "#{first} #{last}"
   end
 
   def list_roles
+    "#{self.characters.name} - #{self.shows.name}"
   end
 end
