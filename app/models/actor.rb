@@ -15,7 +15,7 @@ class Actor < ActiveRecord::Base
     self.shows.collect do |n|
       show = n.name
 
-      "character - show"
+      listing = "#{character} - #{show}"
     end
   end
   end
