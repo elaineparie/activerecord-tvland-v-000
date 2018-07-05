@@ -9,6 +9,6 @@ class Character < ActiveRecord::Base
   def self.build_network
   end
 
-  def build_show
+  def build_show(name)
   end
 end
