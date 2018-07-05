@@ -12,10 +12,8 @@ class Actor < ActiveRecord::Base
   def list_roles
     self.characters.collect do |n|
     character = n.name
-      self.shows.collect do |s|
-      show = s.name
+    show = n.show.name
       listing = "#{character} - #{show}"
-      listing.flatten
       end
     end
   end
