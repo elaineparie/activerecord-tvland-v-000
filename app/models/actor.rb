@@ -7,4 +7,7 @@ class Actor < ActiveRecord::Base
     last = self.last_name
     "#{first} #{last}" 
   end
+
+  def list_roles
+  end
 end
