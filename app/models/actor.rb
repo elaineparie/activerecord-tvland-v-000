@@ -16,7 +16,6 @@ class Actor < ActiveRecord::Base
       listing = "#{character} - #{show}"
       end
     end
-  end
 
 
 
