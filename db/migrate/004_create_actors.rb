@@ -4,7 +4,6 @@ class CreateActors < ActiveRecord::Migration
       #primary key of :id is created for us!
       t.string :first_name
       t.string :last_name
-      t.integer :show_id
     end
   end
 end
