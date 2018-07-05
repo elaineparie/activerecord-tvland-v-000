@@ -15,10 +15,11 @@ class Actor < ActiveRecord::Base
       self.shows.collect do |s|
       show = s.name
       listing = "#{character} - #{show}"
+      listing.flatten
       end
     end
   end
-  
+
 
 
 end
