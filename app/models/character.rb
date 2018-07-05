@@ -9,7 +9,7 @@ class Character < ActiveRecord::Base
   def self.build_network
   end
 
-  def build_show(name)
+  def self.build_show(name)
     show.name = name[:name]
   end
 end
