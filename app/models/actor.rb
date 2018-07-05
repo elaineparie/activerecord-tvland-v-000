@@ -14,3 +14,4 @@ class Actor < ActiveRecord::Base
     #{}"#{self.characters.name} - #{self.shows.name}"
   end
 end
+end
