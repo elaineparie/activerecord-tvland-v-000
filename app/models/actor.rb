@@ -16,7 +16,6 @@ class Actor < ActiveRecord::Base
       show = n.name
 
       listing = "#{character} - #{show}"
-      binding.pry
     end
   end
   end
